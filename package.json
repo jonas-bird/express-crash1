@@ -4,12 +4,16 @@
   "description": "Coding along with some [Express JS Crash Course](https://www.youtube.com/watch?v=L72fhGm1tfE&t=760s) from Traversy Media",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonas Bird",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
